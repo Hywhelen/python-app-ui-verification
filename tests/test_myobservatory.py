@@ -18,8 +18,8 @@ def driver():
         "platformVersion": "16",
         "deviceName": "Pixel 8a",
         "automationName": "UiAutomator2",   # "UIAutomator 2" for Android, "XCUITest" for IOS
-        "android_sdk_root": "C:\\Users\\jackc\\AppData\\Local\\Android\\Sdk",     # the path to local SDK root folder (if applicable)
-        "android_home": "C:\\Users\\jackc\\AppData\\Local\\Android\\Sdk",           # the path to local SDK root folder (if applicable)
+        "android_sdk_root": "SDK\root\folder",     # the path to local SDK root folder (if applicable)
+        "android_home": "SDK\root\folder",           # the path to local SDK root folder (if applicable)
         "NoReset" : True,
         "newCommandTimeout": 300,
     }
