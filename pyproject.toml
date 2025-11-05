@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "app_ui_verification"
+version = "0.1.0"
+description = "Extract data from Anroid/IOS mobile App, MyObservatory."
+authors = ["Helen H"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Appium-Python-Client = "^3.2.0"
+pytest = "^8.0.0"
+pytest-html = "^4.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
